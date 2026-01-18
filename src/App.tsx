@@ -9,6 +9,7 @@ import { StartProjectPage } from "./components/StartProjectPage";
 import { PortfolioPage } from "./components/PortfolioPage";
 import { AdminDashboard } from "./components/AdminDashboard";
 import { CRM } from "./components/CRM";
+import { ClientPortal } from "./components/ClientPortal";
 import { EventOSDemo } from "./components/EventOSDemo";
 
 export default function App() {

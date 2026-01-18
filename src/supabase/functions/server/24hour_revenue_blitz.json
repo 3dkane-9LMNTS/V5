@@ -1,0 +1,420 @@
+{
+  "name": "9LMNTS Studio - 24-Hour Revenue Blitz",
+  "description": "Immediate activation workflow for $2,500 revenue generation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "immediate-activation",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "activation-trigger",
+      "name": "Activation Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "webhookId": "immediate-activation-webhook"
+    },
+    {
+      "parameters": {
+        "functionCode": "// Immediate activation script\nconst activation = {\n  target: 2500,\n  timeframe: '24 hours',\n  agents: ['sales', 'lead_gen', 'social', 'email'],\n  status: 'ACTIVE',\n  startTime: new Date().toISOString()\n};\n\n// Initialize metrics\nconst metrics = {\n  leadsGenerated: 0,\n  emailsSent: 0,\n  socialPosts: 0,\n  callsMade: 0,\n  proposalsSent: 0,\n  paymentsReceived: 0\n};\n\n// Start all agents\nconsole.log('🚀 ACTIVATING ALL AI AGENTS...');\nconsole.log('🎯 TARGET: $' + activation.target + ' in ' + activation.timeframe);\n\nreturn {\n  json: {\n    activation: activation,\n    metrics: metrics,\n    status: 'ALL_SYSTEMS_ACTIVE'\n  }\n};"
+      },
+      "id": "initialize-activation",
+      "name": "Initialize Activation",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "activation_log",
+        "columns": "target_amount, timeframe, agents_active, start_time, status",
+        "additionalFields": {
+          "returnFields": "id"
+        }
+      },
+      "id": "log-activation",
+      "name": "Log Activation",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "credentials": {
+        "supabaseApi": {
+          "id": "supabase-credentials",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "revenue_tracker",
+        "columns": "source, amount, status, timestamp",
+        "additionalFields": {}
+      },
+      "id": "track-revenue",
+      "name": "Track Revenue",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [900, 300],
+      "credentials": {
+        "supabaseApi": {
+          "id": "supabase-credentials",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://api.crewai.com/v1/execute",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ {\"crew_type\": \"sales\", \"target\": 2500, \"timeframe\": \"24h\"} }}",
+        "options": {}
+      },
+      "id": "trigger-crewai",
+      "name": "Trigger CrewAI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [240, 500]
+    },
+    {
+      "parameters": {
+        "url": "https://api.openai.com/v1/chat/completions",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"model\": \"gpt-4\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are an elite sales agent for 9LMNTS Studio. Generate immediate sales content.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Generate 10 email subject lines for Event OS platforms that create urgency and drive immediate sales.\"\n    }\n  ],\n  \"max_tokens\": 500,\n  \"temperature\": 0.3\n}",
+        "options": {}
+      },
+      "id": "generate-sales-content",
+      "name": "Generate Sales Content",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 500]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "email_campaigns",
+        "columns": "subject, body, target_audience, status, sent_at",
+        "additionalFields": {}
+      },
+      "id": "store-emails",
+      "name": "Store Emails",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [680, 500],
+      "credentials": {
+        "supabaseApi": {
+          "id": "supabase-credentials",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://graph.facebook.com/v18.0/17841405886031400/feed",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"message\": \"🚀 24-HOUR CHALLENGE: Launch your Event OS platform today! Limited time offer - Transform your events with AI. #EventTech #AI #9LMNTS\",\n  \"access_token\": \"your_facebook_token\"\n}",
+        "options": {}
+      },
+      "id": "post-facebook",
+      "name": "Post Facebook",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 500]
+    },
+    {
+      "parameters": {
+        "url": "https://api.twitter.com/2/tweets",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"text\": \"🚀 24-HOUR EVENT PLATFORM CHALLENGE: I'm launching AI-powered Event OS platforms for local businesses. Who wants in? #EventTech #LocalBusiness #AI\",\n  \"access_token\": \"your_twitter_token\"\n}",
+        "options": {}
+      },
+      "id": "post-twitter",
+      "name": "Post Twitter",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [240, 700]
+    },
+    {
+      "parameters": {
+        "url": "https://api.linkedin.com/v2/shares",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"text\": \"🚀 Transform your events with AI-powered platforms. We're helping local businesses increase engagement by 300%. Limited time offer available. #EventTechnology #BusinessAutomation\",\n  \"access_token\": \"your_linkedin_token\"\n}",
+        "options": {}
+      },
+      "id": "post-linkedin",
+      "name": "Post LinkedIn",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [460, 700]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "social_posts",
+        "columns": "platform, content, post_url, status, posted_at",
+        "additionalFields": {}
+      },
+      "id": "log-social-posts",
+      "name": "Log Social Posts",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [680, 700],
+      "credentials": {
+        "supabaseApi": {
+          "id": "supabase-credentials",
+          "name": "Supabase API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://api.paypal.com/v2/checkout/orders",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"intent\": \"CAPTURE\",\n  \"purchase_units\": [\n    {\n      \"amount\": {\n        \"currency_code\": \"USD\",\n        \"value\": \"1997\"\n      },\n      \"description\": \"9LMNTS Studio Event OS Professional Package\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "create-paypal-order",
+      "name": "Create PayPal Order",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [900, 700]
+    },
+    {
+      "parameters": {
+        "url": "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"text\": \"🚀 9LMNTS Studio AI Agents ACTIVATED! Target: $2,500 in 24 hours. All systems are generating revenue now!\",\n  \"channel\": \"#general\"\n}",
+        "options": {}
+      },
+      "id": "notify-slack",
+      "name": "Notify Slack",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [240, 900]
+    },
+    {
+      "parameters": {
+        "operation": "select",
+        "table": "revenue_tracker",
+        "columns": "*",
+        "orderBy": "timestamp",
+        "direction": "DESC",
+        "limit": 10
+      },
+      "id": "check-progress",
+      "name": "Check Progress",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [460, 900]
+    },
+    {
+      "parameters": {
+        "url": "https://api.sendgrid.com/v3/mail/send",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"personalizations\": [\n    {\n      \"to\": [{\"email\": \"darnley@9lmntsstudio.com\"}],\n      \"subject\": \"🚀 AI AGENTS ACTIVATED - Revenue Generation Started!\"\n    }\n  ],\n  \"from\": {\"email\": \"ai@9lmntsstudio.com\", \"name\": \"9LMNTS AI\"},\n  \"content\": [{\n    \"type\": \"text/plain\",\n    \"value\": \"All AI agents are now active and generating revenue. Target: $2,500 in 24 hours.\"\n  }]\n}",
+        "options": {}
+      },
+      "id": "send-notification",
+      "name": "Send Notification",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [680, 900]
+    }
+  ],
+  "connections": {
+    "activation-trigger": {
+      "main": [
+        [
+          {
+            "node": "initialize-activation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "initialize-activation": {
+      "main": [
+        [
+          {
+            "node": "log-activation",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "track-revenue",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "trigger-crewai",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "trigger-crewai": {
+      "main": [
+        [
+          {
+            "node": "generate-sales-content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "generate-sales-content": {
+      "main": [
+        [
+          {
+            "node": "store-emails",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "log-activation": {
+      "main": [
+        [
+          {
+            "node": "post-facebook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "track-revenue": {
+      "main": [
+        [
+          {
+            "node": "post-twitter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "post-facebook": {
+      "main": [
+        [
+          {
+            "node": "post-linkedin",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "post-twitter": {
+      "main": [
+        [
+          {
+            "node": "post-linkedin",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "post-linkedin": {
+      "main": [
+        [
+          {
+            "node": "log-social-posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "store-emails": {
+      "main": [
+        [
+          {
+            "node": "create-paypal-order",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "log-social-posts": {
+      "main": [
+        [
+          {
+            "node": "create-paypal-order",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "create-paypal-order": {
+      "main": [
+        [
+          {
+            "node": "notify-slack",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "notify-slack": {
+      "main": [
+        [
+          {
+            "node": "check-progress",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check-progress": {
+      "main": [
+        [
+          {
+            "node": "send-notification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-01-17T21:30:00.000Z",
+  "updatedAt": "2025-01-17T21:30:00.000Z",
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "1",
+  "triggerCount": 1,
+  "tags": [
+    {
+      "createdAt": "2025-01-17T21:30:00.000Z",
+      "updatedAt": "2025-01-17T21:30:00.000Z",
+      "id": "1"
+    }
+  ]
+}

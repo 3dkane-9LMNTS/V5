@@ -1,0 +1,4326 @@
+{
+  "scan_info": {
+    "timestamp": "2026-01-17T23:43:38.201059",
+    "total_files": 410,
+    "projects_scanned": 3,
+    "projects": [
+      {
+        "path": "c:/Users/me/Downloads/9LMNTS Studio V3",
+        "name": "9LMNTS Studio V3"
+      },
+      {
+        "path": "c:/Users/me/Downloads/9LMNTS Studio V4",
+        "name": "9LMNTS Studio V4"
+      },
+      {
+        "path": "c:/Users/me/Downloads/9LMNTS Studio V5",
+        "name": "9LMNTS Studio V5"
+      }
+    ]
+  },
+  "summary": {
+    "by_extension": [
+      {
+        "extension": "",
+        "count": 4,
+        "total_size": 168,
+        "examples": [
+          ".npmrc",
+          ".npmrc",
+          "ready-assets\\.npmrc"
+        ]
+      },
+      {
+        "extension": ".html",
+        "count": 13,
+        "total_size": 202285,
+        "examples": [
+          "index.html",
+          "index.html",
+          "ready-assets\\9LMNTS-OS-LICENSING.html"
+        ]
+      },
+      {
+        "extension": ".json",
+        "count": 12,
+        "total_size": 926217,
+        "examples": [
+          "package-lock.json",
+          "package.json",
+          "package-lock.json"
+        ]
+      },
+      {
+        "extension": ".md",
+        "count": 25,
+        "total_size": 101706,
+        "examples": [
+          "README.md",
+          "src\\Attributions.md",
+          "src\\guidelines\\Guidelines.md"
+        ]
+      },
+      {
+        "extension": ".yaml",
+        "count": 2,
+        "total_size": 514,
+        "examples": [
+          "render.yaml",
+          "render.yaml"
+        ]
+      },
+      {
+        "extension": ".ts",
+        "count": 16,
+        "total_size": 49575,
+        "examples": [
+          "vite.config.ts",
+          "src\\components\\EventOSData.ts",
+          "src\\components\\ui\\use-mobile.ts"
+        ]
+      },
+      {
+        "extension": ".tsx",
+        "count": 265,
+        "total_size": 1354536,
+        "examples": [
+          "src\\App.tsx",
+          "src\\main.tsx",
+          "src\\components\\AboutPage.tsx"
+        ]
+      },
+      {
+        "extension": ".css",
+        "count": 8,
+        "total_size": 289624,
+        "examples": [
+          "src\\index.css",
+          "src\\styles\\globals.css",
+          "src\\index.css"
+        ]
+      },
+      {
+        "extension": ".png",
+        "count": 48,
+        "total_size": 2670240,
+        "examples": [
+          "src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+          "src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+          "src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png"
+        ]
+      },
+      {
+        "extension": ".sql",
+        "count": 3,
+        "total_size": 32372,
+        "examples": [
+          "ready-assets\\supabase-database-setup.sql",
+          "ready-assets\\supabase-setup-complete.sql",
+          "src\\supabase\\functions\\server\\24hour_blitz_database.sql"
+        ]
+      },
+      {
+        "extension": ".toml",
+        "count": 1,
+        "total_size": 376,
+        "examples": [
+          "ready-assets\\.netlify\\netlify.toml"
+        ]
+      },
+      {
+        "extension": ".js",
+        "count": 1,
+        "total_size": 10399,
+        "examples": [
+          "ready-assets\\src\\services\\serviceConfirmation.js"
+        ]
+      },
+      {
+        "extension": ".sh",
+        "count": 5,
+        "total_size": 35458,
+        "examples": [
+          "manual_activation.sh",
+          "src\\supabase\\functions\\server\\activate_now.sh",
+          "src\\supabase\\functions\\server\\connect_all_ai.sh"
+        ]
+      },
+      {
+        "extension": ".py",
+        "count": 6,
+        "total_size": 108101,
+        "examples": [
+          "src\\supabase\\functions\\server\\activation_status.py",
+          "src\\supabase\\functions\\server\\immediate_activation.py",
+          "src\\supabase\\functions\\server\\scan_9lmnts_assets.py"
+        ]
+      },
+      {
+        "extension": ".mjs",
+        "count": 1,
+        "total_size": 5065,
+        "examples": [
+          "src\\supabase\\functions\\server\\scan_9lmnts_assets.mjs"
+        ]
+      }
+    ],
+    "by_project": [
+      {
+        "project": "9LMNTS Studio V3",
+        "count": 83,
+        "total_size": 971135,
+        "file_types": [
+          "",
+          ".yaml",
+          ".ts",
+          ".json",
+          ".md",
+          ".html",
+          ".png",
+          ".tsx",
+          ".css"
+        ]
+      },
+      {
+        "project": "9LMNTS Studio V4",
+        "count": 211,
+        "total_size": 2950006,
+        "file_types": [
+          "",
+          ".js",
+          ".yaml",
+          ".ts",
+          ".toml",
+          ".json",
+          ".md",
+          ".html",
+          ".sql",
+          ".png",
+          ".tsx",
+          ".css"
+        ]
+      },
+      {
+        "project": "9LMNTS Studio V5",
+        "count": 116,
+        "total_size": 1865495,
+        "file_types": [
+          "",
+          ".sh",
+          ".ts",
+          ".css",
+          ".mjs",
+          ".json",
+          ".md",
+          ".html",
+          ".sql",
+          ".py",
+          ".tsx",
+          ".png"
+        ]
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\.npmrc",
+      "name": ".npmrc",
+      "size": 42,
+      "mtime": "2026-01-16T05:20:48.004472",
+      "ext": "",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": ".npmrc",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\index.html",
+      "name": "index.html",
+      "size": 328,
+      "mtime": "2026-01-16T05:20:47.938666",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "index.html",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\package-lock.json",
+      "name": "package-lock.json",
+      "size": 245142,
+      "mtime": "2026-01-16T17:00:04.019036",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "package-lock.json",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\package.json",
+      "name": "package.json",
+      "size": 2366,
+      "mtime": "2026-01-16T16:59:10.449844",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "package.json",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\README.md",
+      "name": "README.md",
+      "size": 290,
+      "mtime": "2026-01-16T05:20:48.037436",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "README.md",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\render.yaml",
+      "name": "render.yaml",
+      "size": 257,
+      "mtime": "2026-01-16T16:59:14.461617",
+      "ext": ".yaml",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "render.yaml",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\vite.config.ts",
+      "name": "vite.config.ts",
+      "size": 585,
+      "mtime": "2026-01-16T13:16:59.028314",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3",
+      "relative_path": "vite.config.ts",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\App.tsx",
+      "name": "App.tsx",
+      "size": 2464,
+      "mtime": "2026-01-16T05:20:45.167752",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src",
+      "relative_path": "src\\App.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\Attributions.md",
+      "name": "Attributions.md",
+      "size": 289,
+      "mtime": "2026-01-16T05:20:45.203444",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src",
+      "relative_path": "src\\Attributions.md",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\index.css",
+      "name": "index.css",
+      "size": 66672,
+      "mtime": "2026-01-16T05:20:45.130704",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src",
+      "relative_path": "src\\index.css",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\main.tsx",
+      "name": "main.tsx",
+      "size": 172,
+      "mtime": "2026-01-16T05:20:45.087138",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src",
+      "relative_path": "src\\main.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "name": "0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "size": 57067,
+      "mtime": "2026-01-16T05:20:47.874393",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets",
+      "relative_path": "src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "name": "7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "size": 66389,
+      "mtime": "2026-01-16T05:20:47.780256",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets",
+      "relative_path": "src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "name": "818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "size": 78420,
+      "mtime": "2026-01-16T05:20:47.803951",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets",
+      "relative_path": "src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "name": "a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "size": 48993,
+      "mtime": "2026-01-16T05:20:47.825834",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets",
+      "relative_path": "src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "name": "f72325e312a920e71b791080254e4f61fa38da20.png",
+      "size": 64974,
+      "mtime": "2026-01-16T05:20:47.849991",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\assets",
+      "relative_path": "src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\AboutPage.tsx",
+      "name": "AboutPage.tsx",
+      "size": 13812,
+      "mtime": "2026-01-16T05:20:45.421430",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\AboutPage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\AdminDashboard.tsx",
+      "name": "AdminDashboard.tsx",
+      "size": 19194,
+      "mtime": "2026-01-16T05:20:45.537882",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\AdminDashboard.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ClientPortal.tsx",
+      "name": "ClientPortal.tsx",
+      "size": 16024,
+      "mtime": "2026-01-16T05:20:45.610325",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\ClientPortal.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\CRM.tsx",
+      "name": "CRM.tsx",
+      "size": 11971,
+      "mtime": "2026-01-16T05:20:45.574036",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\CRM.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\EventOSData.ts",
+      "name": "EventOSData.ts",
+      "size": 9716,
+      "mtime": "2026-01-16T05:20:45.676555",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\EventOSData.ts",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\EventOSDemo.tsx",
+      "name": "EventOSDemo.tsx",
+      "size": 26391,
+      "mtime": "2026-01-16T05:20:45.654895",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\EventOSDemo.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\Footer.tsx",
+      "name": "Footer.tsx",
+      "size": 3829,
+      "mtime": "2026-01-16T08:59:07.861710",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\Footer.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\HomePage.tsx",
+      "name": "HomePage.tsx",
+      "size": 10951,
+      "mtime": "2026-01-16T07:59:24.581037",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\HomePage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\Navbar.tsx",
+      "name": "Navbar.tsx",
+      "size": 3409,
+      "mtime": "2026-01-16T05:20:45.277956",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\Navbar.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\PortfolioPage.tsx",
+      "name": "PortfolioPage.tsx",
+      "size": 11923,
+      "mtime": "2026-01-16T05:20:45.497618",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\PortfolioPage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\PricingPage.tsx",
+      "name": "PricingPage.tsx",
+      "size": 15333,
+      "mtime": "2026-01-16T05:20:45.385168",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\PricingPage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ServicesPage.tsx",
+      "name": "ServicesPage.tsx",
+      "size": 12121,
+      "mtime": "2026-01-16T05:20:45.350673",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\ServicesPage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\StartProjectPage.tsx",
+      "name": "StartProjectPage.tsx",
+      "size": 19118,
+      "mtime": "2026-01-16T05:20:45.460284",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components",
+      "relative_path": "src\\components\\StartProjectPage.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\guidelines\\Guidelines.md",
+      "name": "Guidelines.md",
+      "size": 2559,
+      "mtime": "2026-01-16T05:20:47.635412",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\guidelines",
+      "relative_path": "src\\guidelines\\Guidelines.md",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\styles\\globals.css",
+      "name": "globals.css",
+      "size": 5734,
+      "mtime": "2026-01-16T05:20:47.600019",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\styles",
+      "relative_path": "src\\styles\\globals.css",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\utils\\supabase\\info.tsx",
+      "name": "info.tsx",
+      "size": 336,
+      "mtime": "2026-01-16T05:20:47.671824",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\utils\\supabase",
+      "relative_path": "src\\utils\\supabase\\info.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\supabase\\functions\\server\\index.tsx",
+      "name": "index.tsx",
+      "size": 632,
+      "mtime": "2026-01-16T05:20:47.753966",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\index.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\supabase\\functions\\server\\kv_store.tsx",
+      "name": "kv_store.tsx",
+      "size": 2813,
+      "mtime": "2026-01-16T05:20:47.719697",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\kv_store.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\figma\\ImageWithFallback.tsx",
+      "name": "ImageWithFallback.tsx",
+      "size": 1153,
+      "mtime": "2026-01-16T05:20:47.562622",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\figma",
+      "relative_path": "src\\components\\figma\\ImageWithFallback.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\accordion.tsx",
+      "name": "accordion.tsx",
+      "size": 2074,
+      "mtime": "2026-01-16T05:20:45.718632",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\accordion.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\alert-dialog.tsx",
+      "name": "alert-dialog.tsx",
+      "size": 3872,
+      "mtime": "2026-01-16T05:20:45.758137",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert-dialog.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\alert.tsx",
+      "name": "alert.tsx",
+      "size": 1627,
+      "mtime": "2026-01-16T05:20:45.792611",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\aspect-ratio.tsx",
+      "name": "aspect-ratio.tsx",
+      "size": 290,
+      "mtime": "2026-01-16T05:20:45.828813",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\aspect-ratio.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\avatar.tsx",
+      "name": "avatar.tsx",
+      "size": 1110,
+      "mtime": "2026-01-16T05:20:45.865031",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\avatar.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\badge.tsx",
+      "name": "badge.tsx",
+      "size": 1648,
+      "mtime": "2026-01-16T05:20:45.899572",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\badge.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\breadcrumb.tsx",
+      "name": "breadcrumb.tsx",
+      "size": 2382,
+      "mtime": "2026-01-16T05:20:45.938805",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\breadcrumb.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\button.tsx",
+      "name": "button.tsx",
+      "size": 2118,
+      "mtime": "2026-01-16T05:20:45.985753",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\button.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\calendar.tsx",
+      "name": "calendar.tsx",
+      "size": 2928,
+      "mtime": "2026-01-16T05:20:46.023813",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\calendar.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\card.tsx",
+      "name": "card.tsx",
+      "size": 1988,
+      "mtime": "2026-01-16T05:20:46.062787",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\card.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\carousel.tsx",
+      "name": "carousel.tsx",
+      "size": 5620,
+      "mtime": "2026-01-16T05:20:46.107934",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\carousel.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\chart.tsx",
+      "name": "chart.tsx",
+      "size": 9859,
+      "mtime": "2026-01-16T05:20:46.152001",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\chart.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\checkbox.tsx",
+      "name": "checkbox.tsx",
+      "size": 1258,
+      "mtime": "2026-01-16T05:20:46.194724",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\checkbox.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\collapsible.tsx",
+      "name": "collapsible.tsx",
+      "size": 812,
+      "mtime": "2026-01-16T05:20:46.232806",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\collapsible.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\command.tsx",
+      "name": "command.tsx",
+      "size": 4676,
+      "mtime": "2026-01-16T05:20:46.273045",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\command.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\context-menu.tsx",
+      "name": "context-menu.tsx",
+      "size": 8265,
+      "mtime": "2026-01-16T05:20:46.311647",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\context-menu.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\dialog.tsx",
+      "name": "dialog.tsx",
+      "size": 3842,
+      "mtime": "2026-01-16T05:20:46.350600",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dialog.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\drawer.tsx",
+      "name": "drawer.tsx",
+      "size": 4091,
+      "mtime": "2026-01-16T05:20:46.390050",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\drawer.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\dropdown-menu.tsx",
+      "name": "dropdown-menu.tsx",
+      "size": 8327,
+      "mtime": "2026-01-16T05:20:46.429292",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dropdown-menu.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\form.tsx",
+      "name": "form.tsx",
+      "size": 3804,
+      "mtime": "2026-01-16T05:20:46.467446",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\form.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\hover-card.tsx",
+      "name": "hover-card.tsx",
+      "size": 1543,
+      "mtime": "2026-01-16T05:20:46.506910",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\hover-card.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\input-otp.tsx",
+      "name": "input-otp.tsx",
+      "size": 2296,
+      "mtime": "2026-01-16T05:20:46.543669",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input-otp.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\input.tsx",
+      "name": "input.tsx",
+      "size": 963,
+      "mtime": "2026-01-16T05:20:46.582172",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\label.tsx",
+      "name": "label.tsx",
+      "size": 620,
+      "mtime": "2026-01-16T05:20:46.619629",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\label.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\menubar.tsx",
+      "name": "menubar.tsx",
+      "size": 8440,
+      "mtime": "2026-01-16T05:20:46.659791",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\menubar.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\navigation-menu.tsx",
+      "name": "navigation-menu.tsx",
+      "size": 6704,
+      "mtime": "2026-01-16T05:20:46.696909",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\navigation-menu.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\pagination.tsx",
+      "name": "pagination.tsx",
+      "size": 2717,
+      "mtime": "2026-01-16T05:20:46.734367",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\pagination.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\popover.tsx",
+      "name": "popover.tsx",
+      "size": 1647,
+      "mtime": "2026-01-16T05:20:46.772905",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\popover.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\progress.tsx",
+      "name": "progress.tsx",
+      "size": 749,
+      "mtime": "2026-01-16T05:20:46.808009",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\progress.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\radio-group.tsx",
+      "name": "radio-group.tsx",
+      "size": 1485,
+      "mtime": "2026-01-16T05:20:46.846672",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\radio-group.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\resizable.tsx",
+      "name": "resizable.tsx",
+      "size": 2050,
+      "mtime": "2026-01-16T05:20:46.886767",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\resizable.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\scroll-area.tsx",
+      "name": "scroll-area.tsx",
+      "size": 1655,
+      "mtime": "2026-01-16T05:20:46.924442",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\scroll-area.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\select.tsx",
+      "name": "select.tsx",
+      "size": 6289,
+      "mtime": "2026-01-16T05:20:46.962175",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\select.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\separator.tsx",
+      "name": "separator.tsx",
+      "size": 713,
+      "mtime": "2026-01-16T05:20:47.002263",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\separator.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\sheet.tsx",
+      "name": "sheet.tsx",
+      "size": 4119,
+      "mtime": "2026-01-16T05:20:47.041134",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sheet.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\sidebar.tsx",
+      "name": "sidebar.tsx",
+      "size": 21683,
+      "mtime": "2026-01-16T05:20:47.082802",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sidebar.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\skeleton.tsx",
+      "name": "skeleton.tsx",
+      "size": 275,
+      "mtime": "2026-01-16T05:20:47.120535",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\skeleton.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\slider.tsx",
+      "name": "slider.tsx",
+      "size": 2012,
+      "mtime": "2026-01-16T05:20:47.160775",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\slider.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\sonner.tsx",
+      "name": "sonner.tsx",
+      "size": 583,
+      "mtime": "2026-01-16T05:20:47.195331",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sonner.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\switch.tsx",
+      "name": "switch.tsx",
+      "size": 1188,
+      "mtime": "2026-01-16T05:20:47.233819",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\switch.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\table.tsx",
+      "name": "table.tsx",
+      "size": 2460,
+      "mtime": "2026-01-16T05:20:47.273685",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\table.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\tabs.tsx",
+      "name": "tabs.tsx",
+      "size": 1951,
+      "mtime": "2026-01-16T05:20:47.313810",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tabs.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\textarea.tsx",
+      "name": "textarea.tsx",
+      "size": 767,
+      "mtime": "2026-01-16T05:20:47.352868",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\textarea.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\toggle-group.tsx",
+      "name": "toggle-group.tsx",
+      "size": 1932,
+      "mtime": "2026-01-16T05:20:47.389381",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle-group.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\toggle.tsx",
+      "name": "toggle.tsx",
+      "size": 1577,
+      "mtime": "2026-01-16T05:20:47.426356",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\tooltip.tsx",
+      "name": "tooltip.tsx",
+      "size": 1903,
+      "mtime": "2026-01-16T05:20:47.465640",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tooltip.tsx",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\use-mobile.ts",
+      "name": "use-mobile.ts",
+      "size": 585,
+      "mtime": "2026-01-16T05:20:47.489023",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\use-mobile.ts",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui\\utils.ts",
+      "name": "utils.ts",
+      "size": 169,
+      "mtime": "2026-01-16T05:20:47.511440",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V3\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\utils.ts",
+      "project": "9LMNTS Studio V3"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\.npmrc",
+      "name": ".npmrc",
+      "size": 42,
+      "mtime": "2026-01-16T14:25:01.985100",
+      "ext": "",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": ".npmrc",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\index.html",
+      "name": "index.html",
+      "size": 328,
+      "mtime": "2026-01-16T14:25:01.933104",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "index.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\package-lock.json",
+      "name": "package-lock.json",
+      "size": 195539,
+      "mtime": "2026-01-16T17:08:26.141171",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "package-lock.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\package.json",
+      "name": "package.json",
+      "size": 2345,
+      "mtime": "2026-01-16T17:16:34.720692",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "package.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\PRIVACY_POLICY.md",
+      "name": "PRIVACY_POLICY.md",
+      "size": 7010,
+      "mtime": "2026-01-16T19:40:24.404773",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "PRIVACY_POLICY.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\README.md",
+      "name": "README.md",
+      "size": 290,
+      "mtime": "2026-01-16T14:25:02.019080",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "README.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\render.yaml",
+      "name": "render.yaml",
+      "size": 257,
+      "mtime": "2026-01-16T17:07:53.862008",
+      "ext": ".yaml",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "render.yaml",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\SERVICE_AGREEMENT.md",
+      "name": "SERVICE_AGREEMENT.md",
+      "size": 7716,
+      "mtime": "2026-01-16T19:40:58.975185",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "SERVICE_AGREEMENT.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\TERMS_OF_SERVICE.md",
+      "name": "TERMS_OF_SERVICE.md",
+      "size": 5366,
+      "mtime": "2026-01-16T19:39:51.708888",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "TERMS_OF_SERVICE.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\vite.config.ts",
+      "name": "vite.config.ts",
+      "size": 434,
+      "mtime": "2026-01-16T22:23:08.125685",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4",
+      "relative_path": "vite.config.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\.npmrc",
+      "name": ".npmrc",
+      "size": 42,
+      "mtime": "2026-01-14T18:00:27.852182",
+      "ext": "",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\.npmrc",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\9LMNTS-OS-LICENSING.html",
+      "name": "9LMNTS-OS-LICENSING.html",
+      "size": 37264,
+      "mtime": "2026-01-15T19:12:23.862273",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\9LMNTS-OS-LICENSING.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\client-contract-template.html",
+      "name": "client-contract-template.html",
+      "size": 15246,
+      "mtime": "2026-01-15T17:12:06.296016",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\client-contract-template.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\client-how-to-guide.html",
+      "name": "client-how-to-guide.html",
+      "size": 34165,
+      "mtime": "2026-01-15T17:13:07.746735",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\client-how-to-guide.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\COMPLETE-IMPLEMENTATION-GUIDE.md",
+      "name": "COMPLETE-IMPLEMENTATION-GUIDE.md",
+      "size": 8178,
+      "mtime": "2026-01-14T21:34:24.306009",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\COMPLETE-IMPLEMENTATION-GUIDE.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\emergency-landing.html",
+      "name": "emergency-landing.html",
+      "size": 23986,
+      "mtime": "2026-01-15T21:22:37.739285",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\emergency-landing.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\IMPLEMENTATION-GUIDE.md",
+      "name": "IMPLEMENTATION-GUIDE.md",
+      "size": 7187,
+      "mtime": "2026-01-14T21:03:03.086481",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\IMPLEMENTATION-GUIDE.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\index.html",
+      "name": "index.html",
+      "size": 37264,
+      "mtime": "2026-01-15T19:12:23.862273",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\index.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\n8n-payment-workflow.json",
+      "name": "n8n-payment-workflow.json",
+      "size": 14083,
+      "mtime": "2026-01-14T21:01:03.461859",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\n8n-payment-workflow.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\package-lock.json",
+      "name": "package-lock.json",
+      "size": 216499,
+      "mtime": "2026-01-14T20:08:35.937058",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\package-lock.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\package.json",
+      "name": "package.json",
+      "size": 2278,
+      "mtime": "2026-01-14T18:00:27.813920",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\package.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\paypal-payment-fix.html",
+      "name": "paypal-payment-fix.html",
+      "size": 17017,
+      "mtime": "2026-01-15T13:58:16.581442",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\paypal-payment-fix.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\README-EMERGENCY-LANDING.md",
+      "name": "README-EMERGENCY-LANDING.md",
+      "size": 6219,
+      "mtime": "2026-01-15T17:13:37.702201",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\README-EMERGENCY-LANDING.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\README.md",
+      "name": "README.md",
+      "size": 290,
+      "mtime": "2026-01-14T18:00:27.888991",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\README.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\social-media-content-strategy.md",
+      "name": "social-media-content-strategy.md",
+      "size": 12596,
+      "mtime": "2026-01-15T00:22:44.280340",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\social-media-content-strategy.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\supabase-database-setup.sql",
+      "name": "supabase-database-setup.sql",
+      "size": 18182,
+      "mtime": "2026-01-14T21:02:15.785815",
+      "ext": ".sql",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\supabase-database-setup.sql",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\supabase-setup-complete.sql",
+      "name": "supabase-setup-complete.sql",
+      "size": 8474,
+      "mtime": "2026-01-14T22:50:34.465583",
+      "ext": ".sql",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\supabase-setup-complete.sql",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\test-payment.html",
+      "name": "test-payment.html",
+      "size": 8380,
+      "mtime": "2026-01-14T23:22:40.126569",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\test-payment.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\test-service-confirmation.html",
+      "name": "test-service-confirmation.html",
+      "size": 13942,
+      "mtime": "2026-01-15T00:19:26.548065",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\test-service-confirmation.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\tsconfig.json",
+      "name": "tsconfig.json",
+      "size": 709,
+      "mtime": "2026-01-15T14:10:49.799322",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\tsconfig.json",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\vite.config.ts",
+      "name": "vite.config.ts",
+      "size": 3719,
+      "mtime": "2026-01-14T18:00:27.725263",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\vite.config.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\WORKFLOW-AUTOMATION-SETUP.md",
+      "name": "WORKFLOW-AUTOMATION-SETUP.md",
+      "size": 6947,
+      "mtime": "2026-01-14T21:00:38.306150",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\WORKFLOW-AUTOMATION-SETUP.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\ZAPIER-SOCIAL-MEDIA-SETUP.md",
+      "name": "ZAPIER-SOCIAL-MEDIA-SETUP.md",
+      "size": 6416,
+      "mtime": "2026-01-14T21:01:28.119306",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets",
+      "relative_path": "ready-assets\\ZAPIER-SOCIAL-MEDIA-SETUP.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\App.tsx",
+      "name": "App.tsx",
+      "size": 3021,
+      "mtime": "2026-01-16T22:54:49.541669",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src",
+      "relative_path": "src\\App.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\Attributions.md",
+      "name": "Attributions.md",
+      "size": 289,
+      "mtime": "2026-01-16T14:24:59.293856",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src",
+      "relative_path": "src\\Attributions.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\index.css",
+      "name": "index.css",
+      "size": 66672,
+      "mtime": "2026-01-16T14:24:59.224427",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src",
+      "relative_path": "src\\index.css",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\index.html",
+      "name": "index.html",
+      "size": 396,
+      "mtime": "2026-01-16T22:32:01.944249",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src",
+      "relative_path": "src\\index.html",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\main.tsx",
+      "name": "main.tsx",
+      "size": 172,
+      "mtime": "2026-01-16T14:24:59.179423",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src",
+      "relative_path": "src\\main.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "name": "0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "size": 57067,
+      "mtime": "2026-01-16T14:25:01.872149",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets",
+      "relative_path": "src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "name": "7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "size": 66389,
+      "mtime": "2026-01-16T14:25:01.780664",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets",
+      "relative_path": "src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "name": "818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "size": 78420,
+      "mtime": "2026-01-16T14:25:01.803636",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets",
+      "relative_path": "src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "name": "a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "size": 48993,
+      "mtime": "2026-01-16T14:25:01.827179",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets",
+      "relative_path": "src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "name": "f72325e312a920e71b791080254e4f61fa38da20.png",
+      "size": 64974,
+      "mtime": "2026-01-16T14:25:01.850162",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\assets",
+      "relative_path": "src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\AboutPage.tsx",
+      "name": "AboutPage.tsx",
+      "size": 13812,
+      "mtime": "2026-01-16T14:24:59.512541",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\AboutPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\AdminDashboard.tsx",
+      "name": "AdminDashboard.tsx",
+      "size": 19194,
+      "mtime": "2026-01-16T14:24:59.627459",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\AdminDashboard.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\AIServicesPortal.tsx",
+      "name": "AIServicesPortal.tsx",
+      "size": 2750,
+      "mtime": "2026-01-17T00:18:21.056946",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\AIServicesPortal.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ClientPortal.tsx",
+      "name": "ClientPortal.tsx",
+      "size": 16024,
+      "mtime": "2026-01-16T14:24:59.699899",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\ClientPortal.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\CRM.tsx",
+      "name": "CRM.tsx",
+      "size": 11971,
+      "mtime": "2026-01-16T14:24:59.662980",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\CRM.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\EventOSData.ts",
+      "name": "EventOSData.ts",
+      "size": 9716,
+      "mtime": "2026-01-16T14:24:59.761746",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\EventOSData.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\EventOSDemo.tsx",
+      "name": "EventOSDemo.tsx",
+      "size": 26391,
+      "mtime": "2026-01-16T14:24:59.740352",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\EventOSDemo.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\Footer.tsx",
+      "name": "Footer.tsx",
+      "size": 3817,
+      "mtime": "2026-01-16T22:42:17.093665",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\Footer.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\HomePage.tsx",
+      "name": "HomePage.tsx",
+      "size": 11225,
+      "mtime": "2026-01-16T22:32:30.370087",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\HomePage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\LOACommandCenter.tsx",
+      "name": "LOACommandCenter.tsx",
+      "size": 11160,
+      "mtime": "2026-01-17T00:14:21.560656",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\LOACommandCenter.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\Navbar.tsx",
+      "name": "Navbar.tsx",
+      "size": 3409,
+      "mtime": "2026-01-16T14:24:59.367365",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\Navbar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\PortfolioPage.tsx",
+      "name": "PortfolioPage.tsx",
+      "size": 11923,
+      "mtime": "2026-01-16T14:24:59.590219",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\PortfolioPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\PremiumLOAService.tsx",
+      "name": "PremiumLOAService.tsx",
+      "size": 12185,
+      "mtime": "2026-01-16T19:41:50.268399",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\PremiumLOAService.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\PricingPage.tsx",
+      "name": "PricingPage.tsx",
+      "size": 15333,
+      "mtime": "2026-01-16T14:24:59.476448",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\PricingPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ServicesPage.tsx",
+      "name": "ServicesPage.tsx",
+      "size": 12121,
+      "mtime": "2026-01-16T14:24:59.439188",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\ServicesPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\StartProjectPage.tsx",
+      "name": "StartProjectPage.tsx",
+      "size": 19118,
+      "mtime": "2026-01-16T14:24:59.550466",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components",
+      "relative_path": "src\\components\\StartProjectPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\guidelines\\Guidelines.md",
+      "name": "Guidelines.md",
+      "size": 2559,
+      "mtime": "2026-01-16T14:25:01.634901",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\guidelines",
+      "relative_path": "src\\guidelines\\Guidelines.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\styles\\globals.css",
+      "name": "globals.css",
+      "size": 5734,
+      "mtime": "2026-01-16T14:25:01.598900",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\styles",
+      "relative_path": "src\\styles\\globals.css",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\utils\\supabase\\info.tsx",
+      "name": "info.tsx",
+      "size": 336,
+      "mtime": "2026-01-16T14:25:01.673556",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\utils\\supabase",
+      "relative_path": "src\\utils\\supabase\\info.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\supabase\\functions\\server\\index.tsx",
+      "name": "index.tsx",
+      "size": 632,
+      "mtime": "2026-01-16T14:25:01.755674",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\index.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\supabase\\functions\\server\\kv_store.tsx",
+      "name": "kv_store.tsx",
+      "size": 2813,
+      "mtime": "2026-01-16T14:25:01.720237",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\kv_store.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\figma\\ImageWithFallback.tsx",
+      "name": "ImageWithFallback.tsx",
+      "size": 1153,
+      "mtime": "2026-01-16T14:25:01.561334",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\figma",
+      "relative_path": "src\\components\\figma\\ImageWithFallback.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\accordion.tsx",
+      "name": "accordion.tsx",
+      "size": 2074,
+      "mtime": "2026-01-16T14:24:59.801945",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\accordion.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\alert-dialog.tsx",
+      "name": "alert-dialog.tsx",
+      "size": 3872,
+      "mtime": "2026-01-16T14:24:59.839436",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert-dialog.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\alert.tsx",
+      "name": "alert.tsx",
+      "size": 1627,
+      "mtime": "2026-01-16T14:24:59.873098",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\aspect-ratio.tsx",
+      "name": "aspect-ratio.tsx",
+      "size": 290,
+      "mtime": "2026-01-16T14:24:59.907942",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\aspect-ratio.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\avatar.tsx",
+      "name": "avatar.tsx",
+      "size": 1110,
+      "mtime": "2026-01-16T14:24:59.944774",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\avatar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\badge.tsx",
+      "name": "badge.tsx",
+      "size": 1648,
+      "mtime": "2026-01-16T14:24:59.979323",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\badge.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\breadcrumb.tsx",
+      "name": "breadcrumb.tsx",
+      "size": 2382,
+      "mtime": "2026-01-16T14:25:00.020304",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\breadcrumb.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\button.tsx",
+      "name": "button.tsx",
+      "size": 2118,
+      "mtime": "2026-01-16T14:25:00.044272",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\button.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\calendar.tsx",
+      "name": "calendar.tsx",
+      "size": 2928,
+      "mtime": "2026-01-16T14:25:00.068259",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\calendar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\card.tsx",
+      "name": "card.tsx",
+      "size": 1988,
+      "mtime": "2026-01-16T14:25:00.108245",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\card.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\carousel.tsx",
+      "name": "carousel.tsx",
+      "size": 5620,
+      "mtime": "2026-01-16T14:25:00.152210",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\carousel.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\chart.tsx",
+      "name": "chart.tsx",
+      "size": 9859,
+      "mtime": "2026-01-16T14:25:00.199184",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\chart.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\checkbox.tsx",
+      "name": "checkbox.tsx",
+      "size": 1258,
+      "mtime": "2026-01-16T14:25:00.242159",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\checkbox.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\collapsible.tsx",
+      "name": "collapsible.tsx",
+      "size": 812,
+      "mtime": "2026-01-16T14:25:00.278138",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\collapsible.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\command.tsx",
+      "name": "command.tsx",
+      "size": 4676,
+      "mtime": "2026-01-16T14:25:00.319422",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\command.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\context-menu.tsx",
+      "name": "context-menu.tsx",
+      "size": 8265,
+      "mtime": "2026-01-16T14:25:00.359493",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\context-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\dialog.tsx",
+      "name": "dialog.tsx",
+      "size": 3842,
+      "mtime": "2026-01-16T14:25:00.399102",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dialog.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\drawer.tsx",
+      "name": "drawer.tsx",
+      "size": 4091,
+      "mtime": "2026-01-16T14:25:00.440933",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\drawer.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\dropdown-menu.tsx",
+      "name": "dropdown-menu.tsx",
+      "size": 8327,
+      "mtime": "2026-01-16T14:25:00.480896",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dropdown-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\form.tsx",
+      "name": "form.tsx",
+      "size": 3804,
+      "mtime": "2026-01-16T14:25:00.520214",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\form.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\hover-card.tsx",
+      "name": "hover-card.tsx",
+      "size": 1543,
+      "mtime": "2026-01-16T14:25:00.560191",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\hover-card.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\input-otp.tsx",
+      "name": "input-otp.tsx",
+      "size": 2296,
+      "mtime": "2026-01-16T14:25:00.596594",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input-otp.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\input.tsx",
+      "name": "input.tsx",
+      "size": 963,
+      "mtime": "2026-01-16T14:25:00.635569",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\label.tsx",
+      "name": "label.tsx",
+      "size": 620,
+      "mtime": "2026-01-16T14:25:00.672553",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\label.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\menubar.tsx",
+      "name": "menubar.tsx",
+      "size": 8440,
+      "mtime": "2026-01-16T14:25:00.712382",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\menubar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\navigation-menu.tsx",
+      "name": "navigation-menu.tsx",
+      "size": 6704,
+      "mtime": "2026-01-16T14:25:00.735679",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\navigation-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\pagination.tsx",
+      "name": "pagination.tsx",
+      "size": 2717,
+      "mtime": "2026-01-16T14:25:00.776758",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\pagination.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\popover.tsx",
+      "name": "popover.tsx",
+      "size": 1647,
+      "mtime": "2026-01-16T14:25:00.816611",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\popover.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\progress.tsx",
+      "name": "progress.tsx",
+      "size": 749,
+      "mtime": "2026-01-16T14:25:00.852387",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\progress.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\radio-group.tsx",
+      "name": "radio-group.tsx",
+      "size": 1485,
+      "mtime": "2026-01-16T14:25:00.892383",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\radio-group.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\resizable.tsx",
+      "name": "resizable.tsx",
+      "size": 2050,
+      "mtime": "2026-01-16T14:25:00.932680",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\resizable.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\scroll-area.tsx",
+      "name": "scroll-area.tsx",
+      "size": 1655,
+      "mtime": "2026-01-16T14:25:00.955278",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\scroll-area.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\select.tsx",
+      "name": "select.tsx",
+      "size": 6289,
+      "mtime": "2026-01-16T14:25:00.995256",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\select.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\separator.tsx",
+      "name": "separator.tsx",
+      "size": 713,
+      "mtime": "2026-01-16T14:25:01.037245",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\separator.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\sheet.tsx",
+      "name": "sheet.tsx",
+      "size": 4119,
+      "mtime": "2026-01-16T14:25:01.080359",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sheet.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\sidebar.tsx",
+      "name": "sidebar.tsx",
+      "size": 21683,
+      "mtime": "2026-01-16T14:25:01.121316",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sidebar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\skeleton.tsx",
+      "name": "skeleton.tsx",
+      "size": 275,
+      "mtime": "2026-01-16T14:25:01.158215",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\skeleton.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\slider.tsx",
+      "name": "slider.tsx",
+      "size": 2012,
+      "mtime": "2026-01-16T14:25:01.197202",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\slider.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\sonner.tsx",
+      "name": "sonner.tsx",
+      "size": 583,
+      "mtime": "2026-01-16T14:25:01.233118",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sonner.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\switch.tsx",
+      "name": "switch.tsx",
+      "size": 1188,
+      "mtime": "2026-01-16T14:25:01.271143",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\switch.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\table.tsx",
+      "name": "table.tsx",
+      "size": 2460,
+      "mtime": "2026-01-16T14:25:01.309377",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\table.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\tabs.tsx",
+      "name": "tabs.tsx",
+      "size": 1951,
+      "mtime": "2026-01-16T14:25:01.332949",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tabs.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\textarea.tsx",
+      "name": "textarea.tsx",
+      "size": 767,
+      "mtime": "2026-01-16T14:25:01.368472",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\textarea.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\toggle-group.tsx",
+      "name": "toggle-group.tsx",
+      "size": 1932,
+      "mtime": "2026-01-16T14:25:01.391318",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle-group.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\toggle.tsx",
+      "name": "toggle.tsx",
+      "size": 1577,
+      "mtime": "2026-01-16T14:25:01.426260",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\tooltip.tsx",
+      "name": "tooltip.tsx",
+      "size": 1903,
+      "mtime": "2026-01-16T14:25:01.465230",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tooltip.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\use-mobile.ts",
+      "name": "use-mobile.ts",
+      "size": 585,
+      "mtime": "2026-01-16T14:25:01.489156",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\use-mobile.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui\\utils.ts",
+      "name": "utils.ts",
+      "size": 169,
+      "mtime": "2026-01-16T14:25:01.510503",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\utils.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\.netlify\\netlify.toml",
+      "name": "netlify.toml",
+      "size": 376,
+      "mtime": "2026-01-14T22:58:24.418506",
+      "ext": ".toml",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\.netlify",
+      "relative_path": "ready-assets\\.netlify\\netlify.toml",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\App.tsx",
+      "name": "App.tsx",
+      "size": 2630,
+      "mtime": "2026-01-15T14:26:34.626535",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src",
+      "relative_path": "ready-assets\\src\\App.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\Attributions.md",
+      "name": "Attributions.md",
+      "size": 289,
+      "mtime": "2026-01-14T18:00:24.622362",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src",
+      "relative_path": "ready-assets\\src\\Attributions.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\index.css",
+      "name": "index.css",
+      "size": 66672,
+      "mtime": "2026-01-14T18:00:24.542817",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src",
+      "relative_path": "ready-assets\\src\\index.css",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\main.tsx",
+      "name": "main.tsx",
+      "size": 172,
+      "mtime": "2026-01-14T18:00:24.491734",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src",
+      "relative_path": "ready-assets\\src\\main.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "name": "0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "size": 57067,
+      "mtime": "2026-01-14T18:00:27.700751",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets",
+      "relative_path": "ready-assets\\src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "name": "7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "size": 66389,
+      "mtime": "2026-01-14T18:00:27.596262",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets",
+      "relative_path": "ready-assets\\src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "name": "818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "size": 78420,
+      "mtime": "2026-01-14T18:00:27.623145",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets",
+      "relative_path": "ready-assets\\src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "name": "a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "size": 48993,
+      "mtime": "2026-01-14T18:00:27.649231",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets",
+      "relative_path": "ready-assets\\src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "name": "f72325e312a920e71b791080254e4f61fa38da20.png",
+      "size": 64974,
+      "mtime": "2026-01-14T18:00:27.674291",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\assets",
+      "relative_path": "ready-assets\\src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\AboutPage.tsx",
+      "name": "AboutPage.tsx",
+      "size": 13812,
+      "mtime": "2026-01-14T18:00:24.879022",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\AboutPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\AdminDashboard.tsx",
+      "name": "AdminDashboard.tsx",
+      "size": 23418,
+      "mtime": "2026-01-14T22:48:59.449871",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\AdminDashboard.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\AiServicesPage.tsx",
+      "name": "AiServicesPage.tsx",
+      "size": 9863,
+      "mtime": "2026-01-14T20:47:48.964547",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\AiServicesPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ClientPortal.tsx",
+      "name": "ClientPortal.tsx",
+      "size": 16024,
+      "mtime": "2026-01-14T18:00:25.095833",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\ClientPortal.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ContractApproval.tsx",
+      "name": "ContractApproval.tsx",
+      "size": 8086,
+      "mtime": "2026-01-15T00:07:38.787402",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\ContractApproval.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\CRM.tsx",
+      "name": "CRM.tsx",
+      "size": 11971,
+      "mtime": "2026-01-14T18:00:25.053414",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\CRM.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ErrorBoundary.tsx",
+      "name": "ErrorBoundary.tsx",
+      "size": 0,
+      "mtime": "2026-01-15T14:17:40.479759",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\ErrorBoundary.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\EventOSData.ts",
+      "name": "EventOSData.ts",
+      "size": 9716,
+      "mtime": "2026-01-14T18:00:25.171069",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\EventOSData.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\EventOSDemo.tsx",
+      "name": "EventOSDemo.tsx",
+      "size": 26391,
+      "mtime": "2026-01-14T18:00:25.145117",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\EventOSDemo.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\Footer.tsx",
+      "name": "Footer.tsx",
+      "size": 3831,
+      "mtime": "2026-01-14T18:00:24.666985",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\Footer.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\HomePage.tsx",
+      "name": "HomePage.tsx",
+      "size": 10957,
+      "mtime": "2026-01-14T20:32:25.843035",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\HomePage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\Navbar.tsx",
+      "name": "Navbar.tsx",
+      "size": 3461,
+      "mtime": "2026-01-14T20:32:07.450149",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\Navbar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\PayPalExpandedCheckout-FIXED.tsx",
+      "name": "PayPalExpandedCheckout-FIXED.tsx",
+      "size": 7016,
+      "mtime": "2026-01-15T13:59:18.780322",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\PayPalExpandedCheckout-FIXED.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\PayPalExpandedCheckout.tsx",
+      "name": "PayPalExpandedCheckout.tsx",
+      "size": 0,
+      "mtime": "2026-01-15T14:14:24.168969",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\PayPalExpandedCheckout.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\PortfolioPage.tsx",
+      "name": "PortfolioPage.tsx",
+      "size": 11923,
+      "mtime": "2026-01-14T18:00:24.965651",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\PortfolioPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\PricingPage.tsx",
+      "name": "PricingPage.tsx",
+      "size": 15345,
+      "mtime": "2026-01-14T20:32:18.753104",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\PricingPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ServicesPage.tsx",
+      "name": "ServicesPage.tsx",
+      "size": 12121,
+      "mtime": "2026-01-14T18:00:24.795235",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\ServicesPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\StartProjectPage-CLEAN.tsx",
+      "name": "StartProjectPage-CLEAN.tsx",
+      "size": 17759,
+      "mtime": "2026-01-15T14:03:39.685160",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\StartProjectPage-CLEAN.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\StartProjectPage.tsx",
+      "name": "StartProjectPage.tsx",
+      "size": 17759,
+      "mtime": "2026-01-15T14:03:39.685160",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components",
+      "relative_path": "ready-assets\\src\\components\\StartProjectPage.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\guidelines\\Guidelines.md",
+      "name": "Guidelines.md",
+      "size": 2559,
+      "mtime": "2026-01-14T18:00:27.403508",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\guidelines",
+      "relative_path": "ready-assets\\src\\guidelines\\Guidelines.md",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\services\\serviceConfirmation.js",
+      "name": "serviceConfirmation.js",
+      "size": 10399,
+      "mtime": "2026-01-15T00:07:23.993826",
+      "ext": ".js",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\services",
+      "relative_path": "ready-assets\\src\\services\\serviceConfirmation.js",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\styles\\globals.css",
+      "name": "globals.css",
+      "size": 5734,
+      "mtime": "2026-01-14T18:00:27.363203",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\styles",
+      "relative_path": "ready-assets\\src\\styles\\globals.css",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\utils\\supabase\\info.tsx",
+      "name": "info.tsx",
+      "size": 336,
+      "mtime": "2026-01-14T18:00:27.450374",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\utils\\supabase",
+      "relative_path": "ready-assets\\src\\utils\\supabase\\info.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\supabase\\functions\\server\\index.tsx",
+      "name": "index.tsx",
+      "size": 632,
+      "mtime": "2026-01-14T18:00:27.563228",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\supabase\\functions\\server",
+      "relative_path": "ready-assets\\src\\supabase\\functions\\server\\index.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\supabase\\functions\\server\\kv_store.tsx",
+      "name": "kv_store.tsx",
+      "size": 2813,
+      "mtime": "2026-01-14T18:00:27.519660",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\supabase\\functions\\server",
+      "relative_path": "ready-assets\\src\\supabase\\functions\\server\\kv_store.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\figma\\ImageWithFallback.tsx",
+      "name": "ImageWithFallback.tsx",
+      "size": 1153,
+      "mtime": "2026-01-14T18:00:27.320060",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\figma",
+      "relative_path": "ready-assets\\src\\components\\figma\\ImageWithFallback.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\accordion.tsx",
+      "name": "accordion.tsx",
+      "size": 2074,
+      "mtime": "2026-01-14T18:00:25.227478",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\accordion.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\alert-dialog.tsx",
+      "name": "alert-dialog.tsx",
+      "size": 3872,
+      "mtime": "2026-01-14T18:00:25.271975",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\alert-dialog.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\alert.tsx",
+      "name": "alert.tsx",
+      "size": 1627,
+      "mtime": "2026-01-14T18:00:25.314475",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\alert.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\aspect-ratio.tsx",
+      "name": "aspect-ratio.tsx",
+      "size": 290,
+      "mtime": "2026-01-14T18:00:25.356119",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\aspect-ratio.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\avatar.tsx",
+      "name": "avatar.tsx",
+      "size": 1110,
+      "mtime": "2026-01-14T18:00:25.399455",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\avatar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\badge.tsx",
+      "name": "badge.tsx",
+      "size": 1648,
+      "mtime": "2026-01-14T18:00:25.449988",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\badge.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\breadcrumb.tsx",
+      "name": "breadcrumb.tsx",
+      "size": 2382,
+      "mtime": "2026-01-14T18:00:25.495004",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\breadcrumb.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\button.tsx",
+      "name": "button.tsx",
+      "size": 2118,
+      "mtime": "2026-01-14T18:00:25.536284",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\button.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\calendar.tsx",
+      "name": "calendar.tsx",
+      "size": 2928,
+      "mtime": "2026-01-14T18:00:25.580472",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\calendar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\card.tsx",
+      "name": "card.tsx",
+      "size": 1988,
+      "mtime": "2026-01-14T18:00:25.624630",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\card.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\carousel.tsx",
+      "name": "carousel.tsx",
+      "size": 5620,
+      "mtime": "2026-01-14T18:00:25.668117",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\carousel.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\chart.tsx",
+      "name": "chart.tsx",
+      "size": 9859,
+      "mtime": "2026-01-14T18:00:25.712557",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\chart.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\checkbox.tsx",
+      "name": "checkbox.tsx",
+      "size": 1258,
+      "mtime": "2026-01-14T18:00:25.758944",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\checkbox.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\collapsible.tsx",
+      "name": "collapsible.tsx",
+      "size": 812,
+      "mtime": "2026-01-14T18:00:25.799976",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\collapsible.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\command.tsx",
+      "name": "command.tsx",
+      "size": 4676,
+      "mtime": "2026-01-14T18:00:25.847052",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\command.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\context-menu.tsx",
+      "name": "context-menu.tsx",
+      "size": 8265,
+      "mtime": "2026-01-14T18:00:25.894206",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\context-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\dialog.tsx",
+      "name": "dialog.tsx",
+      "size": 3842,
+      "mtime": "2026-01-14T18:00:25.938932",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\dialog.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\drawer.tsx",
+      "name": "drawer.tsx",
+      "size": 4091,
+      "mtime": "2026-01-14T18:00:25.982461",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\drawer.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\dropdown-menu.tsx",
+      "name": "dropdown-menu.tsx",
+      "size": 8327,
+      "mtime": "2026-01-14T18:00:26.028850",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\dropdown-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\form.tsx",
+      "name": "form.tsx",
+      "size": 3804,
+      "mtime": "2026-01-14T18:00:26.073465",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\form.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\hover-card.tsx",
+      "name": "hover-card.tsx",
+      "size": 1543,
+      "mtime": "2026-01-14T18:00:26.118149",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\hover-card.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\input-otp.tsx",
+      "name": "input-otp.tsx",
+      "size": 2296,
+      "mtime": "2026-01-14T18:00:26.159497",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\input-otp.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\input.tsx",
+      "name": "input.tsx",
+      "size": 963,
+      "mtime": "2026-01-14T18:00:26.203027",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\input.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\label.tsx",
+      "name": "label.tsx",
+      "size": 620,
+      "mtime": "2026-01-14T18:00:26.249168",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\label.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\menubar.tsx",
+      "name": "menubar.tsx",
+      "size": 8440,
+      "mtime": "2026-01-14T18:00:26.293686",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\menubar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\navigation-menu.tsx",
+      "name": "navigation-menu.tsx",
+      "size": 6704,
+      "mtime": "2026-01-14T18:00:26.337284",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\navigation-menu.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\pagination.tsx",
+      "name": "pagination.tsx",
+      "size": 2717,
+      "mtime": "2026-01-14T18:00:26.381314",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\pagination.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\popover.tsx",
+      "name": "popover.tsx",
+      "size": 1647,
+      "mtime": "2026-01-14T18:00:26.427463",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\popover.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\progress.tsx",
+      "name": "progress.tsx",
+      "size": 749,
+      "mtime": "2026-01-14T18:00:26.472295",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\progress.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\radio-group.tsx",
+      "name": "radio-group.tsx",
+      "size": 1485,
+      "mtime": "2026-01-14T18:00:26.521550",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\radio-group.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\resizable.tsx",
+      "name": "resizable.tsx",
+      "size": 2050,
+      "mtime": "2026-01-14T18:00:26.566084",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\resizable.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\scroll-area.tsx",
+      "name": "scroll-area.tsx",
+      "size": 1655,
+      "mtime": "2026-01-14T18:00:26.608056",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\scroll-area.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\select.tsx",
+      "name": "select.tsx",
+      "size": 6289,
+      "mtime": "2026-01-14T18:00:26.651851",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\select.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\separator.tsx",
+      "name": "separator.tsx",
+      "size": 713,
+      "mtime": "2026-01-14T18:00:26.696014",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\separator.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\sheet.tsx",
+      "name": "sheet.tsx",
+      "size": 4119,
+      "mtime": "2026-01-14T18:00:26.742286",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\sheet.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\sidebar.tsx",
+      "name": "sidebar.tsx",
+      "size": 21683,
+      "mtime": "2026-01-14T18:00:26.788484",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\sidebar.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\skeleton.tsx",
+      "name": "skeleton.tsx",
+      "size": 275,
+      "mtime": "2026-01-14T18:00:26.828516",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\skeleton.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\slider.tsx",
+      "name": "slider.tsx",
+      "size": 2012,
+      "mtime": "2026-01-14T18:00:26.869716",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\slider.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\sonner.tsx",
+      "name": "sonner.tsx",
+      "size": 583,
+      "mtime": "2026-01-14T18:00:26.911456",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\sonner.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\switch.tsx",
+      "name": "switch.tsx",
+      "size": 1188,
+      "mtime": "2026-01-14T18:00:26.954730",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\switch.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\table.tsx",
+      "name": "table.tsx",
+      "size": 2460,
+      "mtime": "2026-01-14T18:00:26.998194",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\table.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\tabs.tsx",
+      "name": "tabs.tsx",
+      "size": 1951,
+      "mtime": "2026-01-14T18:00:27.040878",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\tabs.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\textarea.tsx",
+      "name": "textarea.tsx",
+      "size": 767,
+      "mtime": "2026-01-14T18:00:27.083753",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\textarea.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\toggle-group.tsx",
+      "name": "toggle-group.tsx",
+      "size": 1932,
+      "mtime": "2026-01-14T18:00:27.123702",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\toggle-group.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\toggle.tsx",
+      "name": "toggle.tsx",
+      "size": 1577,
+      "mtime": "2026-01-14T18:00:27.163905",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\toggle.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\tooltip.tsx",
+      "name": "tooltip.tsx",
+      "size": 1903,
+      "mtime": "2026-01-14T18:00:27.210807",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\tooltip.tsx",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\use-mobile.ts",
+      "name": "use-mobile.ts",
+      "size": 585,
+      "mtime": "2026-01-14T18:00:27.236910",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\use-mobile.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui\\utils.ts",
+      "name": "utils.ts",
+      "size": 169,
+      "mtime": "2026-01-14T18:00:27.262492",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\src\\components\\ui",
+      "relative_path": "ready-assets\\src\\components\\ui\\utils.ts",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-1.png",
+      "name": "corporate-1.png",
+      "size": 74241,
+      "mtime": "2025-12-31T04:15:18.546673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-1.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-2.png",
+      "name": "corporate-2.png",
+      "size": 44843,
+      "mtime": "2025-12-31T04:15:18.546673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-2.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-3.png",
+      "name": "corporate-3.png",
+      "size": 55947,
+      "mtime": "2025-12-31T04:15:18.547673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-3.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-4.png",
+      "name": "corporate-4.png",
+      "size": 43562,
+      "mtime": "2025-12-31T04:15:18.548672",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-4.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-5.png",
+      "name": "corporate-5.png",
+      "size": 38937,
+      "mtime": "2025-12-31T04:15:18.543675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-5.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\corporate-6.png",
+      "name": "corporate-6.png",
+      "size": 23344,
+      "mtime": "2025-12-31T04:15:18.549672",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\corporate-6.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\founder.png",
+      "name": "founder.png",
+      "size": 37791,
+      "mtime": "2025-12-31T04:15:18.544675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\founder.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\logo.png",
+      "name": "logo.png",
+      "size": 66389,
+      "mtime": "2025-12-31T04:15:18.544675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\logo.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\sound-clash-1.png",
+      "name": "sound-clash-1.png",
+      "size": 66700,
+      "mtime": "2025-12-31T04:15:18.552671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\sound-clash-1.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\sound-clash-2.png",
+      "name": "sound-clash-2.png",
+      "size": 39668,
+      "mtime": "2025-12-31T04:15:18.553669",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\sound-clash-2.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\sound-clash-3.png",
+      "name": "sound-clash-3.png",
+      "size": 64974,
+      "mtime": "2025-12-31T04:15:18.554669",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\sound-clash-3.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\wedding-1.png",
+      "name": "wedding-1.png",
+      "size": 43358,
+      "mtime": "2025-12-31T04:15:18.550671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\wedding-1.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\wedding-2.png",
+      "name": "wedding-2.png",
+      "size": 54687,
+      "mtime": "2025-12-31T04:15:18.550671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\wedding-2.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images\\wedding-3.png",
+      "name": "wedding-3.png",
+      "size": 48993,
+      "mtime": "2025-12-31T04:15:18.551670",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V4\\ready-assets\\public\\images",
+      "relative_path": "ready-assets\\public\\images\\wedding-3.png",
+      "project": "9LMNTS Studio V4"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\.npmrc",
+      "name": ".npmrc",
+      "size": 42,
+      "mtime": "2026-01-16T22:49:24.343612",
+      "ext": "",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": ".npmrc",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\index.html",
+      "name": "index.html",
+      "size": 328,
+      "mtime": "2026-01-16T22:49:24.272447",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "index.html",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\manual_activation.sh",
+      "name": "manual_activation.sh",
+      "size": 0,
+      "mtime": "2026-01-17T23:42:25.433367",
+      "ext": ".sh",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "manual_activation.sh",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\package-lock.json",
+      "name": "package-lock.json",
+      "size": 217615,
+      "mtime": "2026-01-17T13:42:39.664303",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "package-lock.json",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\package.json",
+      "name": "package.json",
+      "size": 2456,
+      "mtime": "2026-01-17T13:42:39.521990",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "package.json",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\README.md",
+      "name": "README.md",
+      "size": 290,
+      "mtime": "2026-01-16T22:49:24.501231",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "README.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\vite.config.ts",
+      "name": "vite.config.ts",
+      "size": 2957,
+      "mtime": "2026-01-17T12:52:47.331079",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5",
+      "relative_path": "vite.config.ts",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-1.png",
+      "name": "corporate-1.png",
+      "size": 74241,
+      "mtime": "2025-12-31T04:15:18.546673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-1.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-2.png",
+      "name": "corporate-2.png",
+      "size": 44843,
+      "mtime": "2025-12-31T04:15:18.546673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-2.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-3.png",
+      "name": "corporate-3.png",
+      "size": 55947,
+      "mtime": "2025-12-31T04:15:18.547673",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-3.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-4.png",
+      "name": "corporate-4.png",
+      "size": 43562,
+      "mtime": "2025-12-31T04:15:18.548672",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-4.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-5.png",
+      "name": "corporate-5.png",
+      "size": 38937,
+      "mtime": "2025-12-31T04:15:18.543675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-5.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\corporate-6.png",
+      "name": "corporate-6.png",
+      "size": 23344,
+      "mtime": "2025-12-31T04:15:18.549672",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\corporate-6.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\founder.png",
+      "name": "founder.png",
+      "size": 37791,
+      "mtime": "2025-12-31T04:15:18.544675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\founder.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\logo.png",
+      "name": "logo.png",
+      "size": 66389,
+      "mtime": "2025-12-31T04:15:18.544675",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\logo.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\sound-clash-1.png",
+      "name": "sound-clash-1.png",
+      "size": 66700,
+      "mtime": "2025-12-31T04:15:18.552671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\sound-clash-1.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\sound-clash-2.png",
+      "name": "sound-clash-2.png",
+      "size": 39668,
+      "mtime": "2025-12-31T04:15:18.553669",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\sound-clash-2.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\sound-clash-3.png",
+      "name": "sound-clash-3.png",
+      "size": 64974,
+      "mtime": "2025-12-31T04:15:18.554669",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\sound-clash-3.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\wedding-1.png",
+      "name": "wedding-1.png",
+      "size": 43358,
+      "mtime": "2025-12-31T04:15:18.550671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\wedding-1.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\wedding-2.png",
+      "name": "wedding-2.png",
+      "size": 54687,
+      "mtime": "2025-12-31T04:15:18.550671",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\wedding-2.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images\\wedding-3.png",
+      "name": "wedding-3.png",
+      "size": 48993,
+      "mtime": "2025-12-31T04:15:18.551670",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\images",
+      "relative_path": "images\\wedding-3.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\App.tsx",
+      "name": "App.tsx",
+      "size": 2522,
+      "mtime": "2026-01-17T13:41:43.268303",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src",
+      "relative_path": "src\\App.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\Attributions.md",
+      "name": "Attributions.md",
+      "size": 289,
+      "mtime": "2026-01-16T22:49:21.481134",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src",
+      "relative_path": "src\\Attributions.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\index.css",
+      "name": "index.css",
+      "size": 66672,
+      "mtime": "2026-01-16T22:49:21.415774",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src",
+      "relative_path": "src\\index.css",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\main.tsx",
+      "name": "main.tsx",
+      "size": 172,
+      "mtime": "2026-01-16T22:49:21.365655",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src",
+      "relative_path": "src\\main.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "name": "0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "size": 57067,
+      "mtime": "2026-01-16T22:49:24.205475",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets",
+      "relative_path": "src\\assets\\0efcb9b1a3b9794f47a28fd25091901fd8a44db2.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "name": "7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "size": 66389,
+      "mtime": "2026-01-16T22:49:24.106515",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets",
+      "relative_path": "src\\assets\\7fa6b449af0658006c308e262ec964e0117dac44.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "name": "818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "size": 78420,
+      "mtime": "2026-01-16T22:49:24.131185",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets",
+      "relative_path": "src\\assets\\818fc707455adb1fc5f7e10ecda370f2026a8c37.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "name": "a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "size": 48993,
+      "mtime": "2026-01-16T22:49:24.155571",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets",
+      "relative_path": "src\\assets\\a083d348fd3f6c8062c56e44479af8ebd9c8d90b.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "name": "f72325e312a920e71b791080254e4f61fa38da20.png",
+      "size": 64974,
+      "mtime": "2026-01-16T22:49:24.180825",
+      "ext": ".png",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\assets",
+      "relative_path": "src\\assets\\f72325e312a920e71b791080254e4f61fa38da20.png",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\AboutPage.tsx",
+      "name": "AboutPage.tsx",
+      "size": 13812,
+      "mtime": "2026-01-16T22:49:21.719148",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\AboutPage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\AdminDashboard.tsx",
+      "name": "AdminDashboard.tsx",
+      "size": 19194,
+      "mtime": "2026-01-16T22:49:21.850320",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\AdminDashboard.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ClientPortal.tsx",
+      "name": "ClientPortal.tsx",
+      "size": 16024,
+      "mtime": "2026-01-16T22:49:21.934026",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\ClientPortal.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\CRM.tsx",
+      "name": "CRM.tsx",
+      "size": 11971,
+      "mtime": "2026-01-16T22:49:21.892315",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\CRM.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\EventOSData.ts",
+      "name": "EventOSData.ts",
+      "size": 9716,
+      "mtime": "2026-01-16T22:49:22.007318",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\EventOSData.ts",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\EventOSDemo.tsx",
+      "name": "EventOSDemo.tsx",
+      "size": 26391,
+      "mtime": "2026-01-16T22:49:21.983011",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\EventOSDemo.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\Footer.tsx",
+      "name": "Footer.tsx",
+      "size": 3645,
+      "mtime": "2026-01-17T13:42:33.939543",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\Footer.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\HomePage.tsx",
+      "name": "HomePage.tsx",
+      "size": 10640,
+      "mtime": "2026-01-17T12:54:07.735658",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\HomePage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\Navbar.tsx",
+      "name": "Navbar.tsx",
+      "size": 3409,
+      "mtime": "2026-01-16T22:49:21.548514",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\Navbar.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\PortfolioPage.tsx",
+      "name": "PortfolioPage.tsx",
+      "size": 11923,
+      "mtime": "2026-01-16T22:49:21.805386",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\PortfolioPage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\PricingPage.tsx",
+      "name": "PricingPage.tsx",
+      "size": 15333,
+      "mtime": "2026-01-16T22:49:21.674992",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\PricingPage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ServicesPage.tsx",
+      "name": "ServicesPage.tsx",
+      "size": 12121,
+      "mtime": "2026-01-16T22:49:21.631515",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\ServicesPage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\StartProjectPage.tsx",
+      "name": "StartProjectPage.tsx",
+      "size": 19118,
+      "mtime": "2026-01-16T22:49:21.762543",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components",
+      "relative_path": "src\\components\\StartProjectPage.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\guidelines\\Guidelines.md",
+      "name": "Guidelines.md",
+      "size": 2559,
+      "mtime": "2026-01-16T22:49:23.945383",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\guidelines",
+      "relative_path": "src\\guidelines\\Guidelines.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\styles\\globals.css",
+      "name": "globals.css",
+      "size": 5734,
+      "mtime": "2026-01-16T22:49:23.908904",
+      "ext": ".css",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\styles",
+      "relative_path": "src\\styles\\globals.css",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\utils\\supabase\\info.tsx",
+      "name": "info.tsx",
+      "size": 336,
+      "mtime": "2026-01-16T22:49:23.984957",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\utils\\supabase",
+      "relative_path": "src\\utils\\supabase\\info.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\24hour_blitz_database.sql",
+      "name": "24hour_blitz_database.sql",
+      "size": 5716,
+      "mtime": "2026-01-17T21:25:56.156603",
+      "ext": ".sql",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\24hour_blitz_database.sql",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\24hour_revenue_blitz.json",
+      "name": "24hour_revenue_blitz.json",
+      "size": 12573,
+      "mtime": "2026-01-17T21:25:00.648494",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\24hour_revenue_blitz.json",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\ACTIVATE_NOW.md",
+      "name": "ACTIVATE_NOW.md",
+      "size": 4892,
+      "mtime": "2026-01-17T21:25:38.315459",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\ACTIVATE_NOW.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\activate_now.sh",
+      "name": "activate_now.sh",
+      "size": 4979,
+      "mtime": "2026-01-17T21:25:15.393898",
+      "ext": ".sh",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\activate_now.sh",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\activation_status.py",
+      "name": "activation_status.py",
+      "size": 8608,
+      "mtime": "2026-01-17T22:36:46.905963",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\activation_status.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\ai_activation_dashboard.html",
+      "name": "ai_activation_dashboard.html",
+      "size": 13641,
+      "mtime": "2026-01-17T21:26:24.086419",
+      "ext": ".html",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\ai_activation_dashboard.html",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\ASSET_SCANNER_README.md",
+      "name": "ASSET_SCANNER_README.md",
+      "size": 2982,
+      "mtime": "2026-01-17T23:32:30.524611",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\ASSET_SCANNER_README.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\connect_all_ai.sh",
+      "name": "connect_all_ai.sh",
+      "size": 13185,
+      "mtime": "2026-01-17T22:17:11.615066",
+      "ext": ".sh",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\connect_all_ai.sh",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\connect_with_supabase.sh",
+      "name": "connect_with_supabase.sh",
+      "size": 17294,
+      "mtime": "2026-01-17T22:25:44.377817",
+      "ext": ".sh",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\connect_with_supabase.sh",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\immediate_activation.py",
+      "name": "immediate_activation.py",
+      "size": 15877,
+      "mtime": "2026-01-17T21:24:35.463711",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\immediate_activation.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\index.tsx",
+      "name": "index.tsx",
+      "size": 632,
+      "mtime": "2026-01-16T22:49:24.076974",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\index.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\kv_store.tsx",
+      "name": "kv_store.tsx",
+      "size": 2813,
+      "mtime": "2026-01-16T22:49:24.038468",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\kv_store.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\manual_activation.sh",
+      "name": "manual_activation.sh",
+      "size": 0,
+      "mtime": "2026-01-17T22:36:53.879746",
+      "ext": ".sh",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\manual_activation.sh",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\scan_9lmnts_assets.mjs",
+      "name": "scan_9lmnts_assets.mjs",
+      "size": 5065,
+      "mtime": "2026-01-17T23:31:22.798251",
+      "ext": ".mjs",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\scan_9lmnts_assets.mjs",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\scan_9lmnts_assets.py",
+      "name": "scan_9lmnts_assets.py",
+      "size": 8152,
+      "mtime": "2026-01-17T23:32:11.510601",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\scan_9lmnts_assets.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\simple_activation.py",
+      "name": "simple_activation.py",
+      "size": 12445,
+      "mtime": "2026-01-17T22:34:42.246154",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\simple_activation.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\SUPABASE_READY.md",
+      "name": "SUPABASE_READY.md",
+      "size": 6027,
+      "mtime": "2026-01-17T22:26:46.029094",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\SUPABASE_READY.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\unified_ai_hub.py",
+      "name": "unified_ai_hub.py",
+      "size": 28910,
+      "mtime": "2026-01-17T22:15:56.766177",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\unified_ai_hub.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\unified_ai_hub_supabase.py",
+      "name": "unified_ai_hub_supabase.py",
+      "size": 34109,
+      "mtime": "2026-01-17T22:26:27.958278",
+      "ext": ".py",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\unified_ai_hub_supabase.py",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\UNIFIED_INTEGRATION_GUIDE.md",
+      "name": "UNIFIED_INTEGRATION_GUIDE.md",
+      "size": 7618,
+      "mtime": "2026-01-17T22:17:36.263530",
+      "ext": ".md",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\UNIFIED_INTEGRATION_GUIDE.md",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server\\unified_integration_workflow.json",
+      "name": "unified_integration_workflow.json",
+      "size": 14612,
+      "mtime": "2026-01-17T22:16:34.261239",
+      "ext": ".json",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\supabase\\functions\\server",
+      "relative_path": "src\\supabase\\functions\\server\\unified_integration_workflow.json",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\figma\\ImageWithFallback.tsx",
+      "name": "ImageWithFallback.tsx",
+      "size": 1153,
+      "mtime": "2026-01-16T22:49:23.868404",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\figma",
+      "relative_path": "src\\components\\figma\\ImageWithFallback.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\accordion.tsx",
+      "name": "accordion.tsx",
+      "size": 2074,
+      "mtime": "2026-01-16T22:49:22.038206",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\accordion.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\alert-dialog.tsx",
+      "name": "alert-dialog.tsx",
+      "size": 3872,
+      "mtime": "2026-01-16T22:49:22.060781",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert-dialog.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\alert.tsx",
+      "name": "alert.tsx",
+      "size": 1627,
+      "mtime": "2026-01-16T22:49:22.100175",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\alert.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\aspect-ratio.tsx",
+      "name": "aspect-ratio.tsx",
+      "size": 290,
+      "mtime": "2026-01-16T22:49:22.123622",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\aspect-ratio.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\avatar.tsx",
+      "name": "avatar.tsx",
+      "size": 1110,
+      "mtime": "2026-01-16T22:49:22.148608",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\avatar.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\badge.tsx",
+      "name": "badge.tsx",
+      "size": 1648,
+      "mtime": "2026-01-16T22:49:22.171129",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\badge.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\breadcrumb.tsx",
+      "name": "breadcrumb.tsx",
+      "size": 2382,
+      "mtime": "2026-01-16T22:49:22.212170",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\breadcrumb.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\button.tsx",
+      "name": "button.tsx",
+      "size": 2118,
+      "mtime": "2026-01-16T22:49:22.252548",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\button.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\calendar.tsx",
+      "name": "calendar.tsx",
+      "size": 2928,
+      "mtime": "2026-01-16T22:49:22.277069",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\calendar.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\card.tsx",
+      "name": "card.tsx",
+      "size": 1988,
+      "mtime": "2026-01-16T22:49:22.324573",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\card.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\carousel.tsx",
+      "name": "carousel.tsx",
+      "size": 5620,
+      "mtime": "2026-01-16T22:49:22.378370",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\carousel.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\chart.tsx",
+      "name": "chart.tsx",
+      "size": 9859,
+      "mtime": "2026-01-16T22:49:22.437017",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\chart.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\checkbox.tsx",
+      "name": "checkbox.tsx",
+      "size": 1258,
+      "mtime": "2026-01-16T22:49:22.464378",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\checkbox.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\collapsible.tsx",
+      "name": "collapsible.tsx",
+      "size": 812,
+      "mtime": "2026-01-16T22:49:22.504567",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\collapsible.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\command.tsx",
+      "name": "command.tsx",
+      "size": 4676,
+      "mtime": "2026-01-16T22:49:22.551865",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\command.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\context-menu.tsx",
+      "name": "context-menu.tsx",
+      "size": 8265,
+      "mtime": "2026-01-16T22:49:22.597547",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\context-menu.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\dialog.tsx",
+      "name": "dialog.tsx",
+      "size": 3842,
+      "mtime": "2026-01-16T22:49:22.638540",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dialog.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\drawer.tsx",
+      "name": "drawer.tsx",
+      "size": 4091,
+      "mtime": "2026-01-16T22:49:22.682355",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\drawer.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\dropdown-menu.tsx",
+      "name": "dropdown-menu.tsx",
+      "size": 8327,
+      "mtime": "2026-01-16T22:49:22.728423",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\dropdown-menu.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\form.tsx",
+      "name": "form.tsx",
+      "size": 3804,
+      "mtime": "2026-01-16T22:49:22.772094",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\form.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\hover-card.tsx",
+      "name": "hover-card.tsx",
+      "size": 1543,
+      "mtime": "2026-01-16T22:49:22.796113",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\hover-card.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\input-otp.tsx",
+      "name": "input-otp.tsx",
+      "size": 2296,
+      "mtime": "2026-01-16T22:49:22.820112",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input-otp.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\input.tsx",
+      "name": "input.tsx",
+      "size": 963,
+      "mtime": "2026-01-16T22:49:22.863438",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\input.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\label.tsx",
+      "name": "label.tsx",
+      "size": 620,
+      "mtime": "2026-01-16T22:49:22.905001",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\label.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\menubar.tsx",
+      "name": "menubar.tsx",
+      "size": 8440,
+      "mtime": "2026-01-16T22:49:22.950667",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\menubar.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\navigation-menu.tsx",
+      "name": "navigation-menu.tsx",
+      "size": 6704,
+      "mtime": "2026-01-16T22:49:22.988659",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\navigation-menu.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\pagination.tsx",
+      "name": "pagination.tsx",
+      "size": 2717,
+      "mtime": "2026-01-16T22:49:23.030077",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\pagination.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\popover.tsx",
+      "name": "popover.tsx",
+      "size": 1647,
+      "mtime": "2026-01-16T22:49:23.075951",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\popover.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\progress.tsx",
+      "name": "progress.tsx",
+      "size": 749,
+      "mtime": "2026-01-16T22:49:23.116586",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\progress.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\radio-group.tsx",
+      "name": "radio-group.tsx",
+      "size": 1485,
+      "mtime": "2026-01-16T22:49:23.156712",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\radio-group.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\resizable.tsx",
+      "name": "resizable.tsx",
+      "size": 2050,
+      "mtime": "2026-01-16T22:49:23.199119",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\resizable.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\scroll-area.tsx",
+      "name": "scroll-area.tsx",
+      "size": 1655,
+      "mtime": "2026-01-16T22:49:23.240077",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\scroll-area.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\select.tsx",
+      "name": "select.tsx",
+      "size": 6289,
+      "mtime": "2026-01-16T22:49:23.265589",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\select.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\separator.tsx",
+      "name": "separator.tsx",
+      "size": 713,
+      "mtime": "2026-01-16T22:49:23.308771",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\separator.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\sheet.tsx",
+      "name": "sheet.tsx",
+      "size": 4119,
+      "mtime": "2026-01-16T22:49:23.357338",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sheet.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\sidebar.tsx",
+      "name": "sidebar.tsx",
+      "size": 21683,
+      "mtime": "2026-01-16T22:49:23.403188",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sidebar.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\skeleton.tsx",
+      "name": "skeleton.tsx",
+      "size": 275,
+      "mtime": "2026-01-16T22:49:23.445608",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\skeleton.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\slider.tsx",
+      "name": "slider.tsx",
+      "size": 2012,
+      "mtime": "2026-01-16T22:49:23.489270",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\slider.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\sonner.tsx",
+      "name": "sonner.tsx",
+      "size": 583,
+      "mtime": "2026-01-16T22:49:23.525760",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\sonner.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\switch.tsx",
+      "name": "switch.tsx",
+      "size": 1188,
+      "mtime": "2026-01-16T22:49:23.549700",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\switch.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\table.tsx",
+      "name": "table.tsx",
+      "size": 2460,
+      "mtime": "2026-01-16T22:49:23.595810",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\table.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\tabs.tsx",
+      "name": "tabs.tsx",
+      "size": 1951,
+      "mtime": "2026-01-16T22:49:23.637571",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tabs.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\textarea.tsx",
+      "name": "textarea.tsx",
+      "size": 767,
+      "mtime": "2026-01-16T22:49:23.679555",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\textarea.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\toggle-group.tsx",
+      "name": "toggle-group.tsx",
+      "size": 1932,
+      "mtime": "2026-01-16T22:49:23.703554",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle-group.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\toggle.tsx",
+      "name": "toggle.tsx",
+      "size": 1577,
+      "mtime": "2026-01-16T22:49:23.742899",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\toggle.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\tooltip.tsx",
+      "name": "tooltip.tsx",
+      "size": 1903,
+      "mtime": "2026-01-16T22:49:23.766886",
+      "ext": ".tsx",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\tooltip.tsx",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\use-mobile.ts",
+      "name": "use-mobile.ts",
+      "size": 585,
+      "mtime": "2026-01-16T22:49:23.788915",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\use-mobile.ts",
+      "project": "9LMNTS Studio V5"
+    },
+    {
+      "path": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui\\utils.ts",
+      "name": "utils.ts",
+      "size": 169,
+      "mtime": "2026-01-16T22:49:23.813371",
+      "ext": ".ts",
+      "dir": "c:\\Users\\me\\Downloads\\9LMNTS Studio V5\\src\\components\\ui",
+      "relative_path": "src\\components\\ui\\utils.ts",
+      "project": "9LMNTS Studio V5"
+    }
+  ]
+}
